@@ -1,0 +1,16 @@
+{
+  "name": "website-45-ericafernandezhg",
+  "version": "1.0.45",
+  "description": "Crea una p\u00e1gina web personal...",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build required for static site'",
+    "start": "echo 'Static site ready'"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "html"
+  ],
+  "author": "erica.fernandez.hg@gmail.com"
+}
