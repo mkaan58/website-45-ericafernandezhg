@@ -1,0 +1,1127 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>Erica Fernández - Portfolio y Showcase Profesional</title>
+    <meta name="description" content="Erica Fernández - BDR en Apisearch, formadora en ventas y creadora de Cañas y Ventas. Descubre su experiencia y viñetas creativas.">
+    
+    <!-- Performance optimized CDN loading -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Advanced CDNs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        if (typeof emailjs !== 'undefined') {
+            emailjs.init("PFATyVVqB6dfozezc");
+        }
+    </script>
+
+    <style>
+/* 🔴 CRITICAL: UNIVERSAL DEVICE COMPATIBILITY */
+* {
+  box-sizing: border-box !important;
+}
+
+html {
+  font-size: 16px !important;
+  -webkit-text-size-adjust: 100% !important;
+  -ms-text-size-adjust: 100% !important;
+}
+
+body {
+  min-height: 100vh !important;
+  min-height: 100dvh !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container, .max-w-7xl, .mx-auto {
+  width: 100% !important;
+  max-width: min(1280px, 100vw - 32px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+/* 🔴 CRITICAL: FLEXIBLE BREAKPOINT SYSTEM */
+/* Ultra Small (iPhone SE, old Android) */
+@media (max-width: 374px) {
+  html { font-size: 14px !important; }
+  .container { padding-left: 12px !important; padding-right: 12px !important; }
+}
+
+/* Small Mobile (375px - 575px) */
+@media (min-width: 375px) and (max-width: 575px) {
+  html { font-size: 15px !important; }
+  .container { padding-left: 16px !important; padding-right: 16px !important; }
+}
+
+/* Large Mobile (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  html { font-size: 16px !important; }
+  .container { padding-left: 20px !important; padding-right: 20px !important; }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container { padding-left: 24px !important; padding-right: 24px !important; }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+  .container { padding-left: 32px !important; padding-right: 32px !important; }
+}
+
+/* 🔴 CRITICAL: TOUCH TARGET SAFETY */
+button, .btn, a, input, textarea, select {
+  min-height: 44px !important;
+  min-width: 44px !important;
+  touch-action: manipulation !important;
+}
+
+/* 🔴 CRITICAL: TEXT READABILITY ON ALL DEVICES */
+p, span, div, li {
+  font-size: clamp(14px, 4vw, 18px) !important;
+  line-height: 1.6 !important;
+}
+
+/* 🔴 CRITICAL: RESPONSIVE HEADING SYSTEM (Fixed) */
+h1 { font-size: clamp(1.75rem, 8vw, 3rem) !important; }
+h2 { font-size: clamp(1.5rem, 6vw, 2.5rem) !important; }
+h3 { font-size: clamp(1.25rem, 5vw, 2rem) !important; }
+h4 { font-size: clamp(1.125rem, 4vw, 1.5rem) !important; }
+h5 { font-size: clamp(1rem, 3vw, 1.25rem) !important; }
+h6 { font-size: clamp(0.875rem, 3vw, 1rem) !important; }
+
+/* 🔴 CRITICAL: FLEXIBLE GRID SYSTEM */
+.grid, .flex {
+  gap: clamp(12px, 3vw, 24px) !important;
+}
+
+.card {
+  padding: clamp(16px, 4vw, 24px) !important;
+  margin-bottom: clamp(16px, 4vw, 24px) !important;
+}
+
+/* 🔴 CRITICAL: SAFE AREA INSETS (for notched phones) */
+.navbar {
+  padding-top: max(16px, env(safe-area-inset-top)) !important;
+  padding-left: max(16px, env(safe-area-inset-left)) !important;
+  padding-right: max(16px, env(safe-area-inset-right)) !important;
+}
+
+.hero-section {
+  padding-top: max(80px, calc(64px + env(safe-area-inset-top))) !important;
+  padding-left: max(16px, env(safe-area-inset-left)) !important;
+  padding-right: max(16px, env(safe-area-inset-right)) !important;
+}
+
+footer {
+  padding-bottom: max(24px, env(safe-area-inset-bottom)) !important;
+  padding-left: max(16px, env(safe-area-inset-left)) !important;
+  padding-right: max(16px, env(safe-area-inset-right)) !important;
+}
+
+/* 🔴 CRITICAL: UNIFORM CARD HEIGHT SYSTEM (Fixed) */
+.card-container {
+  display: flex !important;
+  align-items: stretch !important;
+}
+
+.card {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.card-body {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+/* Grid containers for equal heights */
+.portfolio-grid, .services-grid, .team-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid, .services-grid, .team-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* 🔒 MANDATORY CSS COLOR SYSTEM IMPLEMENTATION */
+:root {
+  /* Primary Color System */
+  --color-primary: #4B5EAA; /* Deep Teal Blue from plan */
+  --color-custom-accent: #FF6B6B; /* Vibrant Coral from plan for buttons/accents */
+  --color-custom-accent-hover: #E65A5A; /* Darker coral for hover */
+  
+  /* Background System */
+  --color-bg: #ffffff; /* Pure White from plan */
+  --color-card-bg: #F8F8F8; /* Soft Off-White from plan */
+  
+  /* Text System (from scientific system for contrast) */
+  --color-text-primary: #111827;
+  --color-text-secondary: #2f436e;
+  --color-text-muted: #5070b3;
+  
+  /* Border System (from scientific system) */
+  --color-border: #e5e7eb;
+  --color-border-hover: #d1d5db;
+  
+  /* Interactive States (Adjusted based on plan & scientific system) */
+  --color-primary-hover: #3B4A86; /* Darker deep teal blue */
+  
+  /* Status Colors (from scientific system) */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+  
+  /* Design System */
+  --border-radius: 8px;
+  --font-heading: 'Roboto', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+}
+
+/* 🎯 GUARANTEED VISIBILITY BASE STYLES */
+body {
+  background-color: var(--color-bg) !important;
+  color: var(--color-text-primary) !important;
+  font-family: var(--font-body) !important;
+  line-height: 1.6 !important;
+}
+
+/* 🔴 CRITICAL: BUTTON SYSTEM (ZERO TOLERANCE FOR INVISIBLE BUTTONS) */
+.btn-primary {
+  background-color: var(--color-custom-accent) !important;
+  color: var(--color-bg) !important;
+  border: 2px solid var(--color-custom-accent) !important;
+  font-weight: 600 !important;
+  padding: 12px 24px !important;
+  border-radius: var(--border-radius) !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  min-height: 44px !important;
+  min-width: 44px !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-custom-accent-hover) !important;
+  border-color: var(--color-custom-accent-hover) !important;
+  color: var(--color-bg) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+  color: var(--color-primary) !important;
+  border: 2px solid var(--color-primary) !important;
+  font-weight: 600 !important;
+  padding: 12px 24px !important;
+  border-radius: var(--border-radius) !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+  min-height: 44px !important;
+  min-width: 44px !important;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary) !important;
+  color: var(--color-bg) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* 🔴 CRITICAL: NAVIGATION SYSTEM */
+.navbar {
+  background-color: var(--color-bg) !important;
+  border-bottom: 1px solid var(--color-border) !important;
+  backdrop-filter: blur(10px) !important;
+  padding: 16px 0 !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Subtle shadow for sticky nav */
+}
+
+.navbar-brand {
+  color: var(--color-text-primary) !important;
+  font-weight: 700 !important;
+  font-family: var(--font-heading) !important;
+  font-size: 24px !important;
+  text-decoration: none !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-text-secondary) !important;
+  font-weight: 500 !important;
+  padding: 8px 16px !important;
+  border-radius: calc(var(--border-radius) / 2) !important;
+  transition: all 0.2s ease !important;
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+  color: var(--color-primary) !important;
+  background-color: var(--color-card-bg) !important;
+}
+
+.navbar-toggler {
+  border: 2px solid var(--color-border) !important;
+  color: var(--color-text-primary) !important;
+  background: transparent !important;
+  padding: 8px 12px !important;
+}
+
+/* 🔴 CRITICAL: FORM SYSTEM */
+.form-control {
+  background-color: var(--color-bg) !important;
+  border: 2px solid var(--color-border) !important;
+  color: var(--color-text-primary) !important;
+  border-radius: var(--border-radius) !important;
+  padding: 12px 16px !important;
+  font-size: 16px !important;
+  width: 100% !important;
+  transition: all 0.2s ease !important;
+}
+
+.form-control:focus {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 0 3px rgba(75, 94, 170, 0.1) !important;
+  outline: none !important;
+}
+
+.form-control::placeholder {
+  color: var(--color-text-muted) !important;
+  opacity: 1 !important;
+}
+
+.form-label {
+  color: var(--color-text-primary) !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+  display: block !important;
+}
+
+/* 🔴 CRITICAL: CARD SYSTEM */
+.card {
+  background-color: var(--color-card-bg) !important;
+  border: 1px solid var(--color-border) !important;
+  color: var(--color-text-primary) !important;
+  border-radius: var(--border-radius) !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden !important;
+}
+
+.card:hover {
+  border-color: var(--color-border-hover) !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1) !important;
+  transform: translateY(-4px) !important;
+}
+
+.card-title {
+  color: var(--color-text-primary) !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 700 !important;
+  margin-bottom: 12px !important;
+}
+
+.card-text {
+  color: var(--color-text-secondary) !important;
+  line-height: 1.6 !important;
+}
+
+/* 🔴 CRITICAL: ICON SYSTEM */
+.icon {
+  color: var(--color-primary) !important;
+  transition: color 0.2s ease !important;
+}
+
+.icon:hover {
+  color: var(--color-primary-hover) !important;
+}
+
+/* 🔴 CRITICAL: LINK SYSTEM */
+a {
+  color: var(--color-primary) !important;
+  text-decoration: none !important; /* Changed to none for general links, underline only on hover */
+  transition: all 0.2s ease !important;
+}
+
+a:hover {
+  color: var(--color-primary-hover) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+}
+
+/* Specific link style for custom accent */
+.accent-link {
+  color: var(--color-custom-accent) !important;
+  text-decoration: none !important;
+}
+.accent-link:hover {
+  color: var(--color-custom-accent-hover) !important;
+  text-decoration: underline !important;
+}
+
+/* 🔴 CRITICAL: HEADING HIERARCHY */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-primary) !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 16px !important;
+}
+
+/* 🔴 CRITICAL: UTILITY CLASSES */
+.text-primary-color { color: var(--color-primary) !important; }
+.text-secondary-color { color: var(--color-text-secondary) !important; }
+.text-muted-color { color: var(--color-text-muted) !important; }
+.bg-primary-color { background-color: var(--color-primary) !important; }
+.bg-card-color { background-color: var(--color-card-bg) !important; }
+.border-primary-color { border-color: var(--color-primary) !important; }
+
+/* Specific accent classes */
+.text-accent-color { color: var(--color-custom-accent) !important; }
+.bg-accent-color { background-color: var(--color-custom-accent) !important; }
+
+/* 🔴 CRITICAL: FOCUS STATES FOR ACCESSIBILITY */
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+  outline: 2px solid var(--color-primary) !important;
+  outline-offset: 2px !important;
+}
+
+/* 🔴 CRITICAL: HOVER STATES FOR INTERACTIVE ELEMENTS */
+button,
+.btn,
+[role="button"] {
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+button:hover,
+.btn:hover,
+[role="button"]:hover {
+  transform: translateY(-1px) !important;
+}
+
+/* 🔴 CRITICAL: MOBILE NAVIGATION FIX */
+.mobile-menu {
+  position: fixed !important;
+  top: 64px !important;
+  right: 0 !important;
+  height: calc(100vh - 64px) !important;
+  width: 280px !important;
+  background-color: var(--color-bg) !important;
+  border-left: 1px solid var(--color-border) !important;
+  transform: translateX(100%) !important;
+  transition: transform 0.3s ease !important;
+  z-index: 999 !important;
+  overflow-y: auto !important;
+}
+
+.mobile-menu.active {
+  transform: translateX(0) !important;
+}
+
+.hamburger {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+  width: 24px !important;
+  height: 24px !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+}
+
+.hamburger span {
+  display: block !important;
+  width: 100% !important;
+  height: 2px !important;
+  background-color: var(--color-text-primary) !important;
+  transition: all 0.3s ease !important;
+  transform-origin: center !important;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px) !important;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0 !important;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px) !important;
+}
+
+/* 🔴 CRITICAL: MOBILE TOUCH TARGETS */
+@media (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    min-height: 48px !important;
+    min-width: 48px !important;
+    padding: 16px 24px !important;
+    font-size: 16px !important;
+  }
+  
+  .nav-link {
+    padding: 16px 20px !important;
+    font-size: 16px !important;
+    display: block !important;
+    border-bottom: 1px solid var(--color-border) !important;
+  }
+  
+  .card {
+    margin-bottom: 20px !important;
+  }
+}
+
+/* 🔴 CRITICAL: MOBILE FORM FIXES */
+@media (max-width: 768px) {
+  .form-control {
+    font-size: 16px !important;
+    padding: 16px !important;
+    min-height: 48px !important;
+  }
+  
+  textarea.form-control {
+    min-height: 120px !important;
+  }
+}
+
+/* Swiper Styling */
+.swiper {
+  padding: 20px 0 60px 0 !important;
+  overflow: visible !important;
+}
+
+.swiper-pagination {
+  bottom: 10px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--color-text-muted) !important;
+  opacity: 0.5 !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 0 4px !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+  opacity: 1 !important;
+  transform: scale(1.3) !important;
+}
+
+/* Mobile Navigation Buttons */
+@media (min-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: var(--color-primary) !important;
+    background-color: var(--color-bg) !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease !important;
+    border: 2px solid var(--color-border) !important;
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: var(--color-primary) !important;
+    color: var(--color-bg) !important;
+    transform: scale(1.1) !important;
+    border-color: var(--color-primary) !important;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 14px !important;
+    font-weight: bold !important;
+  }
+}
+
+/* 🚨 CRITICAL: Prevent horizontal scroll */
+.swiper-container, .swiper {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+
+.swiper-wrapper {
+  max-width: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .swiper {
+    margin: 0 !important;
+    padding: 0 15px !important;
+  }
+  
+  .swiper-slide {
+    width: 100% !important;
+    flex-shrink: 0 !important;
+  }
+}
+
+/* Hide navigation buttons on mobile */
+@media (max-width: 767px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+  
+  .swiper-pagination {
+    bottom: 20px !important;
+  }
+}
+
+/* TYPED.JS STYLING */
+.typed-element {
+  color: var(--color-primary) !important;
+  font-weight: 700 !important;
+  position: relative !important;
+}
+
+.typed-cursor {
+  color: var(--color-primary) !important;
+  font-weight: 300 !important;
+  animation: blink 1s infinite !important;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* CRITICAL TYPED.JS LAYOUT SAFETY */
+.typed-container {
+  min-width: 200px !important; 
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  display: inline-block !important; /* Ensures it doesn't take full width */
+  vertical-align: middle; /* Align with surrounding text */
+}
+
+body, .container {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+
+/* PARTICLES STYLING */
+.particles-container {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: -1 !important;
+  pointer-events: none !important;
+}
+
+#particles-js {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: transparent !important;
+}
+
+/* CRITICAL: Mobile optimization - disable particles */
+@media (max-width: 768px) {
+  .particles-container {
+    display: none !important;
+  }
+}
+
+/* CRITICAL: Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .particles-container {
+    display: none !important;
+  }
+}
+
+/* CRITICAL: Performance optimization for low-end devices */
+@media (max-width: 1024px) and (max-height: 768px) {
+  .particles-container {
+    display: none !important;
+  }
+}
+</style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.bottom-8{bottom:2rem}.right-8{right:2rem}.-z-20{z-index:-20}.z-10{z-index:10}.z-40{z-index:40}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mr-2{margin-right:0.5rem}.mr-4{margin-right:1rem}.mt-12{margin-top:3rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-12{height:3rem}.h-16{height:4rem}.h-48{height:12rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-12{width:3rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-t-lg{border-top-left-radius:0.5rem;border-top-right-radius:0.5rem}.object-cover{object-fit:cover}.p-3{padding:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.text-center{text-align:center}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.opacity-10{opacity:0.1}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}@media (min-width: 640px){.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:text-2xl{font-size:1.5rem;line-height:2rem}}@media (min-width: 1024px){.lg\:max-w-2xl{max-width:42rem}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style></head>
+
+<body x-data="{ mobileMenuOpen: false, showBackToTop: false, activeSection: 'home' }" x-init="
+    window.addEventListener('scroll', () =&gt; {
+        showBackToTop = window.scrollY &gt; 300;
+        const sections = ['home', 'sobre-mi', 'proyectos', 'vinetas', 'contacto'];
+        let current = 'home';
+        for (let i = sections.length - 1; i &gt;= 0; i--) {
+            const section = document.getElementById(sections[i]);
+            if (section &amp;&amp; window.scrollY &gt;= (section.offsetTop - 100)) { // Offset for smooth scroll spy
+                current = sections[i];
+                break;
+            }
+        }
+        activeSection = current;
+    });
+">
+
+    <!-- Navigation -->
+    <nav class="navbar" x-bind:class="{ 'shadow-lg': showBackToTop }">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#home" class="navbar-brand">Erica Fernández</a>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8 navbar-nav">
+                    <a href="#sobre-mi" class="nav-link" :class="{ 'active': activeSection === 'sobre-mi' }">Sobre mí</a>
+                    <a href="#proyectos" class="nav-link" :class="{ 'active': activeSection === 'proyectos' }">Proyectos</a>
+                    <a href="#vinetas" class="nav-link" :class="{ 'active': activeSection === 'vinetas' }">Viñetas</a>
+                    <a href="#contacto" class="nav-link" :class="{ 'active': activeSection === 'contacto' }">Contacto</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button @click="mobileMenuOpen = !mobileMenuOpen" class="hamburger" :class="{ 'active': mobileMenuOpen }" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu md:hidden" :class="{ 'active': mobileMenuOpen }">
+            <div class="px-4 py-2 navbar-nav">
+                <a href="#sobre-mi" @click="mobileMenuOpen = false" class="nav-link block">Sobre mí</a>
+                <a href="#proyectos" @click="mobileMenuOpen = false" class="nav-link block">Proyectos</a>
+                <a href="#vinetas" @click="mobileMenuOpen = false" class="nav-link block">Viñetas</a>
+                <a href="#contacto" @click="mobileMenuOpen = false" class="nav-link block">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section min-h-screen flex items-center justify-center relative px-4 sm:px-6 lg:px-8">
+        <div id="particles-js" class="particles-container"></div>
+        
+        <div class="max-w-3xl mx-auto text-center relative z-10">
+            <div>
+                <h1 class="font-bold mb-6 text-primary-color">
+                    Hola, soy Erica Fernández 👋
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-secondary-color typed-container">
+                    <span id="typed-hero-text" class="typed-element">Esp</span><span class="typed-cursor" aria-hidden="true">|</span>
+                </p>
+            </div>
+        </div>
+        <!-- Real Business-Context Hero Image as a subtle background element -->
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&amp;h=600&amp;fit=crop&amp;crop=center" alt="Professional workspace background" class="absolute inset-0 w-full h-full object-cover opacity-10 -z-20" loading="lazy" onerror="this.alt='Image failed to load - using real Unsplash photo'">
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="py-20" style="background-color: var(--color-card-bg);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-bold mb-4 text-primary-color">Sobre mí</h2>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1533749871411-5e21e14bcc7d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3NjE0MzF8MHwxfHNlYXJjaHw5fHxTYWxlcyUyMHN0cmF0ZWd5fGVufDB8fHx8MTc1MjAxMDI2MHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080&amp;w=500&amp;h=500&amp;fit=crop&amp;crop=center" alt="Sales strategy and training" class="rounded-2xl shadow-2xl w-full max-w-md mx-auto hover-lift" loading="lazy">
+                </div>
+                
+                <div>
+                    <p class="mb-6 leading-relaxed text-secondary-color">
+                        Soy especialista en ventas B2B con foco en SaaS. Me gusta transformar el caos en claridad comercial y acompañar a equipos de ventas a vender con autenticidad y sentido.
+                    </p>
+                    <p class="mb-6 leading-relaxed text-secondary-color">
+                        Mi enfoque combina la estrategia, la formación y un toque humano para asegurar que las ventas no solo sean efectivas, sino también significativas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio/Projects Section -->
+    <section id="proyectos" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-bold mb-4 text-primary-color">Proyectos</h2>
+                <p class="text-xl text-secondary-color max-w-3xl mx-auto">Estas son algunas de mis iniciativas destacadas:</p>
+            </div>
+            
+            <div class="portfolio-grid grid md:grid-cols-3 gap-8">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1623208525215-a573aacb1560?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3NjE0MzF8MHwxfHNlYXJjaHwxfHxCRFIlMjB0cmFpbmluZ3xlbnwwfHx8fDE3NTIwMTAyNjB8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080&amp;w=600&amp;h=400&amp;fit=crop&amp;crop=center" alt="BDR training session" class="w-full h-48 object-cover rounded-t-lg mb-4" loading="lazy">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary-color">Apisearch</h3>
+                        <p class="card-text text-secondary-color">Diseño estrategia comercial y entreno BDRs para optimizar su rendimiento y escalar ventas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1591453214154-c95db71dbd83?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3NjE0MzF8MHwxfHNlYXJjaHwxMHx8U2FsZXMlMjBuZXR3b3JraW5nfGVufDB8fHx8MTc1MjAxMDI2MXww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080&amp;w=600&amp;h=400&amp;fit=crop&amp;crop=center" alt="Networking event for sales professionals" class="w-full h-48 object-cover rounded-t-lg mb-4" loading="lazy">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary-color">Cañas y Ventas</h3>
+                        <p class="card-text text-secondary-color">Evento de networking donde hablamos de ventas entre cañas y buen rollo, fomentando conexiones auténticas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3NjE0MzF8MHwxfHNlYXJjaHwxfHxTYWxlcyUyMHRyYWluaW5nfGVufDB8fHx8MTc1MjAxMDI2MHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080&amp;w=600&amp;h=400&amp;fit=crop&amp;crop=center" alt="Sales training session with a trainer and whiteboard" class="w-full h-48 object-cover rounded-t-lg mb-4" loading="lazy">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary-color">Formación</h3>
+                        <p class="card-text text-secondary-color">Formación especializada en objeciones, prospección y mindset comercial para potenciar equipos de ventas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Viñetas Section -->
+    <section id="vinetas" class="py-20" style="background-color: var(--color-card-bg);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-bold mb-4 text-primary-color">Viñetas</h2>
+            </div>
+            
+            <div class="lg:max-w-2xl mx-auto text-center">
+                <p class="mb-4 text-secondary-color">
+                    Cuando no puedo explicarlo con palabras, lo dibujo.
+                </p>
+                <p class="mb-6 text-secondary-color">
+                    Mis viñetas mezclan <strong class="text-primary-color">humor, ventas y salud mental</strong>, ofreciendo una perspectiva única y creativa.
+                </p>
+                <p class="text-muted-color text-sm">
+                    (Aquí pronto verás una galería de mis viñetas)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-bold mb-4 text-primary-color">Contacto</h2>
+                <p class="text-xl text-secondary-color max-w-3xl mx-auto">Conecta conmigo para cualquier consulta o colaboración.</p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Info & CTA -->
+                <div>
+                    <h3 class="font-bold mb-8 text-primary-color">Hablemos</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-lg flex items-center justify-center mr-4" style="background-color: rgba(75, 94, 170, 0.1);">
+                                <i class="fas fa-envelope icon"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-color">Email</h4>
+                                <p class="text-secondary-color"><a href="mailto:hola@ericafernandez.es" class="accent-link">hola@ericafernandez.es</a></p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-lg flex items-center justify-center mr-4" style="background-color: rgba(75, 94, 170, 0.1);">
+                                <i class="fab fa-tiktok icon"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-color">TikTok</h4>
+                                <p class="text-secondary-color"><a href="https://www.tiktok.com/@Erica_FdezVentas" target="_blank" rel="noopener noreferrer" class="accent-link">@Erica_FdezVentas</a></p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 rounded-lg flex items-center justify-center mr-4" style="background-color: rgba(75, 94, 170, 0.1);">
+                                <i class="fab fa-linkedin icon"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-primary-color">LinkedIn</h4>
+                                <p class="text-secondary-color"><a href="https://www.linkedin.com/in/ericafernandez" target="_blank" rel="noopener noreferrer" class="accent-link">Erica Fernández</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-12">
+                        <a href="#" class="btn-primary w-full text-center">
+                            Quiero enterarme de las próximas ediciones de Cañas y Ventas
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form (Standardized from Base Template) -->
+                <div>
+                    <div class="card">
+                        <h3 class="card-title text-primary-color mb-6">Envía un mensaje</h3>
+                        
+                        <form id="emailjs-form" class="space-y-6">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="field">
+                                    <label for="name" class="form-label">
+                                        <i class="fas fa-user mr-2 icon"></i>Nombre
+                                    </label>
+                                    <input type="text" name="name" id="name" required="" class="form-control" placeholder="Tu Nombre">
+                                </div>
+                                <div class="field">
+                                    <label for="email" class="form-label">
+                                        <i class="fas fa-envelope mr-2 icon"></i>Email
+                                    </label>
+                                    <input type="email" name="email" id="email" required="" class="form-control" placeholder="tu@email.com">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label for="subject" class="form-label">
+                                    <i class="fas fa-tag mr-2 icon"></i>Asunto
+                                </label>
+                                <input type="text" name="subject" id="subject" required="" class="form-control" placeholder="Consulta o Propuesta">
+                            </div>
+                            <div class="field">
+                                <label for="message" class="form-label">
+                                    <i class="fas fa-comment mr-2 icon"></i>Mensaje
+                                </label>
+                                <textarea name="message" id="message" required="" rows="5" class="form-control" placeholder="Escribe tu mensaje aquí..."></textarea>
+                            </div>
+                            
+                            <div class="field hidden">
+                                <input type="hidden" name="to_email" id="to_email" value="hola@ericafernandez.es">
+                            </div>
+                            
+                            <button type="submit" id="contact-btn" class="btn-primary w-full">
+                                <i class="fas fa-paper-plane mr-2"></i>
+                                Enviar Mensaje
+                            </button>
+                            
+                            <div id="success-message" class="hidden text-center py-3 rounded-lg" style="color: var(--color-success); background: rgba(16, 185, 129, 0.1);">
+                                <i class="fas fa-check-circle mr-2"></i>
+                                ¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.
+                            </div>
+                            <div id="error-message" class="hidden text-center py-3 rounded-lg" style="color: var(--color-error); background: rgba(239, 68, 68, 0.1);">
+                                <i class="fas fa-exclamation-circle mr-2"></i>
+                                <span id="error-text">Fallo al enviar el mensaje. Por favor, inténtalo de nuevo.</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12" style="background-color: var(--color-bg); border-top: 1px solid var(--color-border);">
+       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+           <p class="text-muted-color">© 2023 Erica Fernández. Todos los derechos reservados.</p>
+       </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button x-show="showBackToTop" @click="window.scrollTo({top: 0, behavior: 'smooth'})" x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0 transform scale-90" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-90" class="fixed bottom-8 right-8 p-3 rounded-full shadow-lg transition-all z-40 bg-primary-color text-white" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" style="display: none;">
+       <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript CDNs (EXACT ORDER) -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <!-- Only load particles on desktop -->
+    <script>
+        if (window.innerWidth > 768 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js';
+            document.body.appendChild(script);
+        }
+    </script>
+    
+    <!-- Initialize everything -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize AOS
+            AOS.init({
+                duration: 600,
+                easing: 'ease-out',
+                once: true,
+                offset: 50,
+                disable: function() {
+                    return window.innerWidth < 768;
+                }
+            });
+            
+            // Initialize Typed.js for Hero Section
+            const typedHeroTextElement = document.getElementById('typed-hero-text');
+            if (typedHeroTextElement) {
+                new Typed('#typed-hero-text', {
+                    strings: [
+                        'BDR en Apisearch, formadora en ventas y creadora de Cañas y Ventas 🍻<br>Esta web es mi carta de presentación para que puedas conocer lo que hago y cómo lo vivo.',
+                        'Especialista en ventas B2B con foco en SaaS, transformando caos en claridad comercial.<br>Acompaño equipos a vender con autenticidad y sentido.',
+                        'Mis viñetas mezclan humor, ventas y salud mental 🎨 Cuando no puedo explicarlo con palabras, lo dibujo.'
+                    ],
+                    typeSpeed: 30,
+                    backSpeed: 15,
+                    backDelay: 3000,
+                    startDelay: 500,
+                    loop: true,
+                    showCursor: true,
+                    cursorChar: '|',
+                    autoInsertCss: true,
+                });
+            }
+            
+            // Initialize Particles.js (only on desktop)
+            if (typeof particlesJS !== 'undefined' && window.innerWidth > 768 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                particlesJS('particles-js', {
+                    particles: {
+                        number: { value: 50, density: { enable: true, value_area: 800 } },
+                        color: { value: '#4b5eaa' }, // Primary color for particles
+                        shape: { type: 'circle' },
+                        opacity: { value: 0.3, random: true, anim: { enable: true, speed: 1, opacity_min: 0.1, sync: false } },
+                        size: { value: 3, random: true, anim: { enable: true, speed: 2, size_min: 0.1, sync: false } },
+                        line_linked: { enable: true, distance: 150, color: '#4b5eaa', opacity: 0.2, width: 1 },
+                        move: { enable: true, speed: 1, direction: 'none', random: false, straight: false, out_mode: 'out', bounce: false }
+                    },
+                    interactivity: {
+                        detect_on: 'canvas',
+                        events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' }, resize: true },
+                        modes: { repulse: { distance: 100, duration: 0.4 }, push: { particles_nb: 4 } }
+                    },
+                    retina_detect: true
+                });
+            }
+            
+            // EmailJS Contact Form
+            const form = document.getElementById('emailjs-form');
+            const btn = document.getElementById('contact-btn');
+            const successMsg = document.getElementById('success-message');
+            const errorMsg = document.getElementById('error-message');
+            const errorText = document.getElementById('error-text');
+            
+            if (form && btn) {
+                form.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    
+                    btn.disabled = true;
+                    btn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Enviando...';
+                    
+                    successMsg.classList.add('hidden');
+                    errorMsg.classList.add('hidden');
+                    
+                    const serviceID = 'service_d1ikm0r';
+                    const templateID = 'template_y6yjh3h';
+                    
+                    emailjs.sendForm(serviceID, templateID, this) // Changed to 'this' to refer to the form
+                        .then(function(response) {
+                            successMsg.classList.remove('hidden');
+                            form.reset();
+                            btn.disabled = false;
+                            btn.innerHTML = '<i class="fas fa-paper-plane mr-2"></i>Enviar Mensaje';
+                            setTimeout(() => successMsg.classList.add('hidden'), 5000);
+                        }, function(error) {
+                            let errorMessage = 'Fallo al enviar el mensaje. Por favor, inténtalo de nuevo.';
+                            if (error.status === 422) errorMessage = 'Configuración de plantilla o servicio no válida.';
+                            else if (error.status === 412) errorMessage = 'Error de autenticación del servicio de email.';
+                            else if (error.status === 400) errorMessage = 'Solicitud no válida. Comprueba tus datos.';
+                            
+                            errorText.textContent = errorMessage;
+                            errorMsg.classList.remove('hidden');
+                            btn.disabled = false;
+                            btn.innerHTML = '<i class="fas fa-paper-plane mr-2"></i>Enviar Mensaje';
+                        });
+                });
+            }
+            
+            // Smooth scrolling for navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        const offset = document.querySelector('.navbar').offsetHeight; // Adjust for sticky nav
+                        window.scrollTo({
+                            top: targetElement.offsetTop - offset,
+                            behavior: 'smooth'
+                        });
+                    }
+                    if (window.innerWidth < 768) { // Close mobile menu after clicking a link
+                        document.querySelector('[x-data]')._x_dataStack[0].mobileMenuOpen = false;
+                    }
+                });
+            });
+            
+            // Mobile menu close on outside click
+            document.addEventListener('click', function(event) {
+                const mobileMenu = document.querySelector('.mobile-menu');
+                const hamburger = document.querySelector('.hamburger');
+                const navbar = document.querySelector('nav');
+                
+                // Check if click is outside navbar and mobile menu
+                if (!navbar.contains(event.target) && !mobileMenu.contains(event.target) && !hamburger.contains(event.target)) {
+                    const mobileMenuData = document.querySelector('[x-data]');
+                    if (mobileMenuData && mobileMenuData._x_dataStack) {
+                        mobileMenuData._x_dataStack[0].mobileMenuOpen = false;
+                    }
+                }
+            });
+
+            // Prevent zoom on input focus (iOS fix)
+            document.querySelectorAll('input, textarea, select').forEach(element => {
+                element.addEventListener('touchstart', function() {
+                    if (element.style.fontSize !== '16px') {
+                        element.style.fontSize = '16px';
+                    }
+                });
+            });
+        });
+    </script>
+
+<style data-typed-js-cursor-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style></body></html>
